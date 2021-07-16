@@ -30,8 +30,8 @@ class PaxServerRemoteService : Service() {
     }
 
     override fun onDestroy() {
-        super.onDestroy()
         Log.d(TAG, "onDestroy()")
+        super.onDestroy()
         linkerBinder?.unRegisterObject(paxServerRemoteService)
     }
 
