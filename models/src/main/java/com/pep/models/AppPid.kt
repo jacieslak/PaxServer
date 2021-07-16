@@ -1,4 +1,4 @@
-package com.pep.paxserver.aidl
+package com.pep.models
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

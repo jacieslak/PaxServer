@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.IBinder
 import android.os.Process
 import android.util.Log
+import com.pep.models.AppPid
 import dagger.hilt.android.AndroidEntryPoint
 import pl.pep.peplinker.PePLinkerBinder
 
