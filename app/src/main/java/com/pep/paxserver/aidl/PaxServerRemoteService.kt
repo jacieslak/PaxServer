@@ -41,5 +41,12 @@ class PaxServerRemoteService : Service() {
             return Process.myPid()
         }
 
+        override fun getAppPid(): AppPid {
+            Log.d(TAG, "server getAppPid()")
+            val result = AppPid("PaxServer", Process.myPid())
+            Log.d(TAG, "server sends $result")
+            return result
+        }
+
     }
 }

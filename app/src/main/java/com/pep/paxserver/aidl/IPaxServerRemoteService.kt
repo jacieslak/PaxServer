@@ -5,4 +5,6 @@ import pl.pep.peplinker.annotation.RemoteInterface
 @RemoteInterface
 interface IPaxServerRemoteService {
     fun getPid(): Int
+
+    fun getAppPid(): AppPid
 }
